@@ -1,0 +1,42 @@
+.homeContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    padding:4rem;
+}
+
+.homeHead
+{
+    color: blue;
+}
+.homePara
+{
+    color: grey;
+    font-size: medium;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Ensure that borders are collapsed */
+    margin: 20px 0;
+    /* Add some margin for spacing */
+}
+
+/* Style the table headers */
+th,
+td {
+    border: 1px solid #000;
+    /* Add a border to table cells */
+    padding: 10px;
+    /* Add padding inside table cells */
+    text-align: left;
+    /* Align text to the left */
+}
+
+/* Optional: Add some background color to table headers */
+th {
+    background-color: #f2f2f2;
+}
